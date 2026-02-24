@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的作品集</title>
+    <style>
+        body { font-family: 微软雅黑; max-width: 800px; margin: 50px auto; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        .project { border-left: 4px solid #3498db; padding-left: 20px; margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <h1>👋 你好，我是 [你的名字]</h1>
+    <p>机械工程师，正在学习 Python 爬虫，这是我的个人作品集。</p>
+
+    <div class="project">
+        <h2>📊 项目1：淘宝轴承价格爬虫</h2>
+        <p>用 Python 爬取淘宝搜索“轴承”的结果，提取价格、店铺名，保存到 Excel。</p>
+        <a href="#">查看代码</a>（这里可以放 GitHub 代码链接）
+    </div>
+
+    <div class="project">
+        <h2>📈 项目2：工业品参数采集</h2>
+        <p>从某技术论坛自动下载轴承型号参数，整理成数据库。</p>
+        <a href="#">查看代码</a>
+    </div>
+
+    <p>📧 联系我：你的邮箱@example.com</p>
+</body>
+</html>
